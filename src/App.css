@@ -1,0 +1,104 @@
+body {
+  height: 100%;
+  font-family: sans-serif;
+  
+}
+
+nav {
+  margin: 0!important;
+}
+
+div ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 2em!important;  
+  margin-bottom: 20px!important;
+}
+
+h3 {
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 2em!important;
+
+}
+
+div ul li {
+  margin-left: 5px;
+  list-style-type: none;
+  text-underline-position: none;
+  text-decoration: none;
+}
+
+.list-group {
+  float: left;
+  height: 100vh;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  box-shadow: none!important;
+}
+
+p {
+  letter-spacing: .2px!important;
+  color: #333333!important;
+}
+
+.list-group-item {
+  color: #777777!important;
+  font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease 0s;
+}
+
+.glyphicon {
+  float: right;
+}
+
+img {
+  width: 30px;
+}
+
+dl {
+  font-family: sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+}
+.main_container {
+  overflow: -webkit-paged-x;
+  padding: 20px;
+  font-family: sans-serif;
+  letter-spacing: 0.7px;
+  font-size: 15px;
+  max-width: 900px;
+}
+.container-fluid {
+  background: #313131;
+}
+.navbar-brand {
+  padding: 0;
+}
+
+.nav-logo {
+  width: 190px;
+  padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .list-group {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+  }
+  .main_container {
+    padding: 10px;
+  }
+}
+
